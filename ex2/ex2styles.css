@@ -1,0 +1,21 @@
+
+ol{
+    list-style-type: none;
+    
+}
+
+li{
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border: 2px black;
+    border-style: solid;
+}
+
+li:nth-of-type(2n+2){
+    display:none;
+}
